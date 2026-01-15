@@ -1,0 +1,77 @@
+.container{
+    margin: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    text-align: left;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: flex-end;
+    justify-content: center;
+} 
+.logo{
+    margin-right: auto;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 10px;
+    gap: 10px;
+    width: 55px;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-details{
+    flex: 2;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.profile-card{
+    flex: 1;
+    margin: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    gap: 10px;
+    
+}
+.skill{
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.about{
+    background-color: #d17171;
+    padding: 10px;
+    border-radius: 5px;
+}
